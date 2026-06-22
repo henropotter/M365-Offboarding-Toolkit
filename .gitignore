@@ -1,0 +1,30 @@
+# Runtime output from the offboarding tool. These can contain real names and
+# account data. Never commit them.
+offboard_logs/
+*.log
+transcript.log
+actions.csv
+escalations.csv
+ticket_summary.txt
+offboard_AD_*.ps1
+
+# Approved-list input. Contains real people. Never commit.
+terminations.csv
+*.terminations.csv
+
+# Local-only config and credential material
+*.local.ps1
+.env
+*.pem
+*.cer
+*.pfx
+*.key
+
+# PowerShell and editor build artifacts
+bin/
+obj/
+*.user
+
+# OS noise
+.DS_Store
+Thumbs.db
