@@ -9,7 +9,7 @@
     PowerShellVersion    = '5.1'
     CompatiblePSEditions = @('Desktop', 'Core')
     RequiredModules      = @('Microsoft.Graph.Authentication')
-    FunctionsToExport    = @()
+    FunctionsToExport    = @('Invoke-OffboardingAssessment')
     CmdletsToExport      = @()
     VariablesToExport    = @()
     AliasesToExport      = @()
