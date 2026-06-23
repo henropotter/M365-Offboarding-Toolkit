@@ -28,3 +28,4 @@ obj/
 # OS noise
 .DS_Store
 Thumbs.db
+assess-user.ps1
